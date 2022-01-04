@@ -1,0 +1,53 @@
+:root {    
+    --bg-600: hsl(98, 39%, 62%);
+    --bg-400: hsl(98, 39%, 42%);
+    --bg-200: hsl(98, 39%, 22%);
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column; 
+    gap: 0.5em;
+    min-width: 300px;
+}
+input {
+   border: 2px solid #5f9341;
+   padding: 0.5em; 
+}
+
+button {
+    background: #5f9341;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #5f9341;
+    font-weight: bold;
+    
+}
+
+/* Style the button according to the provided design */
+
+#delete-btn {
+    background: #fff;
+    color: #5f9341;    
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    
+}
+li {
+    margin-top: 10px;
+}
+a {
+    /* text-decoration: none; */
+    color: var(--bg-400);
+}
